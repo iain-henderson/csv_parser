@@ -11,15 +11,22 @@ csv_parser may be run either directly:
 Two basic samples are included.
 ### test.csv
 This file is the "most complicated" CSV example from [Wikipedia](https://en.wikipedia.org/wiki/Comma-separated_values).
-The headers in this file are:
+The columns in this file are:
  * Year
  * Make
  * Model
  * Description
  * Price
-### sample4.csv
+### test2.csv
+A basic CSV example
+The columns in this file are:
+ * City
+ * State
+ * Motto
+ * Mayor
+### overseas-trade-indexes-June-2021-quarter-provisional-csv.csv
 Sourced from [https://www.stats.govt.nz/large-datasets/csv-files-for-download/](https://www.stats.govt.nz/assets/Uploads/International-trade/International-trade-June-2021-quarter/Download-data/overseas-trade-indexes-June-2021-quarter-provisional-csv.csv)
-The headers in this file are:
+The columns in this file are:
  * Series_reference
  * Period
  * Data_value
@@ -33,7 +40,7 @@ The headers in this file are:
  * Series_title_3
  * Series_title_4
  * Series_title_5
- 
+
 ## Docker
 A Dockerfile is included to enable building a Docker image and running csv_parser as a Docker container
 
